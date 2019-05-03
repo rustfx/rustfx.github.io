@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font: normal 75% Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #FFF;
+}
+
+.wrapper {
+    z-index: 0;
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+header {
+    z-index: 0;
+    width: 960px;
+    font-size: 36px;
+}
+
+nav, section {z-index: 0;
+    float: left;
+}
+
+nav {z-index: 0;
+    width: 400px;
+    margin-right: 0px;
+
+}
+
+section {z-index: 0;
+    width: 560px;
+}
+
+
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {z-index: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header,
+nav,
+section,
+h3{z-index: 0;
+    border: 0px solid rgba(255,255,255,0.8);
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+header {z-index: 0;
+    padding: 20px 0;
+}
+
+section{z-index: 0;
+    padding: 15px 0;
+}
+
+nav {z-index: 0;
+    padding: 80px 0;
+}
+
+/*
+##############################
+ */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 190%;
+    background-color: #000000;
+}
