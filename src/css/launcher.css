@@ -33,11 +33,8 @@ nav {z-index: 0;
 }
 
 section {z-index: 0;
-    width: 450px;
+    width: 500px;
 }
-
-
-
 /**************************************
 CSS TO MAKE THE EXAMPLE LOOK PRETTY
 **************************************/
@@ -62,11 +59,11 @@ header {z-index: 0;
 }
 
 section{z-index: 0;
-    padding: 0 0px;
+    padding: 0px 0;
 }
 
 nav {z-index: 0;
-    padding: 5px 0;
+    padding: 60px 0;
 }
 
 /*
